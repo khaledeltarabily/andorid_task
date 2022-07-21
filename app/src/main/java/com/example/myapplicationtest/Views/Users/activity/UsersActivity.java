@@ -1,7 +1,6 @@
 package com.example.myapplicationtest.Views.Users.activity;
 
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RelativeLayout;
@@ -28,7 +27,7 @@ public class UsersActivity extends AppCompatActivity implements progressBarOpera
 
     private viewPagerAdapter adapter;
 
-    @SuppressLint("CheckResult")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
