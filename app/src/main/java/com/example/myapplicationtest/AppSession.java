@@ -14,7 +14,7 @@ public class AppSession extends Application {
     public static progressBarOperations operations;
     public static Cache cache;
     private static Context context;
-    public static long perPage= 100;
+    public static long perPage= 10;
 
     public static void setProgressBarOperations(progressBarOperations operations) {
         AppSession.operations = operations;
